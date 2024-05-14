@@ -59,7 +59,7 @@ npm run dev
 - :white_large_square: Deve ser possível listar todos os pets disponíveis para adoção em uma cidade
 - :white_large_square: Deve ser possível filtrar pets por suas características
 - :white_large_square: Deve ser possível visualizar detalhes de um pet para adoção
-- :white_large_square: Deve ser possível se cadastrar como uma ORG
+- :ballot_box_with_check: Deve ser possível se cadastrar como uma ORG
 - :white_large_square: Deve ser possível realizar login como uma ORG
 
 ### Regras de negócio
