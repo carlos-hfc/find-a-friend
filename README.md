@@ -60,7 +60,7 @@ npm run dev
 - :ballot_box_with_check: Deve ser possível cadastrar um pet
 - :ballot_box_with_check: Deve ser possível listar todos os pets disponíveis para adoção em uma cidade
 - :ballot_box_with_check: Deve ser possível filtrar pets por suas características
-- :white_large_square: Deve ser possível visualizar detalhes de um pet para adoção
+- :ballot_box_with_check: Deve ser possível visualizar detalhes de um pet para adoção
 
 ### Regras de negócio
 

@@ -10,5 +10,6 @@ export interface PetsFilter {
 
 export abstract class PetsRepository {
   abstract list(params: PetsFilter): Promise<Pet[]>
+  abstract findById(id: string): Promise<Pet | null>
   abstract create(data: Prisma.PetUncheckedCreateInput): Promise<Pet>
 }
