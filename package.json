@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest run --dir src/use-cases",
+    "test:watch": "vitest --dir src/use-cases"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +25,7 @@
   },
   "dependencies": {
     "@prisma/client": "5.14.0",
+    "bcryptjs": "2.4.3",
     "dotenv": "16.4.5",
     "fastify": "4.27.0",
     "zod": "3.23.8"
