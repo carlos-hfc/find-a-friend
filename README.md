@@ -55,21 +55,21 @@ npm run dev
 
 ### Requisitos funcionais
 
-- :white_large_square: Deve ser possível cadastrar um pet
+- :ballot_box_with_check: Deve ser possível se cadastrar como uma ORG
+- :ballot_box_with_check: Deve ser possível realizar login como uma ORG
+- :ballot_box_with_check: Deve ser possível cadastrar um pet
 - :white_large_square: Deve ser possível listar todos os pets disponíveis para adoção em uma cidade
 - :white_large_square: Deve ser possível filtrar pets por suas características
 - :white_large_square: Deve ser possível visualizar detalhes de um pet para adoção
-- :ballot_box_with_check: Deve ser possível se cadastrar como uma ORG
-- :ballot_box_with_check: Deve ser possível realizar login como uma ORG
 
 ### Regras de negócio
 
-- :white_large_square: Para listar os pets, obrigatoriamente precisamos informar a cidade
-- :white_large_square: Uma ORG precisa ter um endereço e um número de WhatsApp
+- :ballot_box_with_check: Uma ORG precisa ter um endereço e um número de WhatsApp
+- :ballot_box_with_check: Para um ORG acessar a aplicação como admin, ela precisa estar logada
+- :ballot_box_with_check: O usuário que quer adotar, entrará em contato com a ORG via WhatsApp
 - :white_large_square: Um pet deve estar ligado a uma ORG
-- :white_large_square: O usuário que quer adotar, entrará em contato com a ORG via WhatsApp
+- :white_large_square: Para listar os pets, obrigatoriamente precisamos informar a cidade
 - :white_large_square: Todos os filtros, além da cidade, são opcionais
-- :white_large_square: Para um ORG acessar a aplicação como admin, ela precisa estar logada
 
 ## :computer: Tecnologias utilizadas
 
