@@ -67,7 +67,7 @@ npm run dev
 - :ballot_box_with_check: Uma ORG precisa ter um endereço e um número de WhatsApp
 - :ballot_box_with_check: Para um ORG acessar a aplicação como admin, ela precisa estar logada
 - :ballot_box_with_check: O usuário que quer adotar, entrará em contato com a ORG via WhatsApp
-- :white_large_square: Um pet deve estar ligado a uma ORG
+- :ballot_box_with_check: Um pet deve estar ligado a uma ORG
 - :white_large_square: Para listar os pets, obrigatoriamente precisamos informar a cidade
 - :white_large_square: Todos os filtros, além da cidade, são opcionais
 
