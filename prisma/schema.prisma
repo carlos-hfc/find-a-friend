@@ -1,0 +1,43 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Organization {
+  id           String  @id @default(uuid())
+  name         String
+  responsible  String
+  email        String  @unique
+  passwordHash String
+  cep          String
+  address      String
+  district     String
+  complement   String?
+  city         String
+  uf           String  @db.Char(2)
+  whatsapp     String
+
+  pets Pet[]
+
+  @@map("organizations")
+}
+
+model Pet {
+  id           String @id @default(uuid())
+  name         String
+  about        String @db.Text
+  age          Int
+  size         String
+  energy       String
+  environment  String
+  requirements String @db.Text
+
+  organization   Organization @relation(fields: [organizationId], references: [id])
+  organizationId String
+
+  @@map("pets")
+}
