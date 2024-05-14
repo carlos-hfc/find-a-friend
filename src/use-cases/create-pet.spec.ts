@@ -14,8 +14,8 @@ let useCase: CreatePetUseCase
 
 describe("Create Pet", () => {
   beforeEach(async () => {
-    petRepository = new InMemoryPetRepository()
     orgRepository = new InMemoryOrganizationRepository()
+    petRepository = new InMemoryPetRepository(orgRepository)
     useCase = new CreatePetUseCase(petRepository, orgRepository)
   })
 
